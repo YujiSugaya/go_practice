@@ -13,3 +13,10 @@ func main(){
 	var z uint = uint(f)
 	fmt.Println(x, y, z)
 }
+
+
+// var i int = 42
+// var f float64 = float64(i)
+// var u uint = uint(f)
+
+// 型名 +型の違う変数名
