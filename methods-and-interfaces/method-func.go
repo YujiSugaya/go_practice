@@ -16,6 +16,7 @@ func Abs(v Vertex) float64 {
 
 func main() {
 	v := Vertex{3, 4}
+	//メソッドとして定義していないのでv.Absにはならず、通常の呼び出し
 	fmt.Println(Abs(v))
 
 }
